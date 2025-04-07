@@ -6,6 +6,7 @@ The desired search functionality would be one where the user may pick if they wa
 
 
 ## Who is the targeted demographic for this application?
-- Anyone who has ever opened up their refrigerator and thought to themselves: "I would like to make something out of the stuff in here, but I have no idea what to do".
-- People that loves a certain ingredient and wants more recipes with their favorite thing in it.
 - For those of us who don't want to waste food but just have no clue what to do with a block of tofu, half a chicken and some cucumber that has seen better days.
+- For those of us that sometimes lack the inspiration to come up with what to make for dinner that day.
+- People that loves a certain ingredient and wants more recipes with their favorite thing in it.
+- And anyone else that cooks!
