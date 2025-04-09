@@ -1,9 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('./app/app.component.css');
+
+@import url('./pages/homepage/homepage.component.css');
+
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     background: linear-gradient(60deg, #e77088, #FFEDBC) no-repeat;
     margin: 0;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    background-color: #e77088;
+}
+
+button:hover {
+    border-color: #FFEDBC;
 }
