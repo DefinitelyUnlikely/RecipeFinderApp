@@ -8,4 +8,6 @@ The homepage should be very simple and is mainly a way to see the webpage at its
 Two buttons in the middle of the page, one for getting to the actual recipe finding page and one for getting to the about us page.
 
 Color scheme? I feel a recipe site is mostly associated with brighter colors and a light theme.
-A white background can be a little dull - I'm thinknig gradiant. And I'm thinking a peachlike color scheme.
+A white background can be a little dull - I'm thinking gradiant. And I'm thinking a peachlike color scheme. That feels "foody". 
+
+I'm going to opt for a header anyway, but the header is not with any navigation, it will simply be the text for the app name.

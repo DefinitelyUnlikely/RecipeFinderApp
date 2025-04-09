@@ -2,3 +2,12 @@
     display: flex;
     flex-direction: column;
 }
+
+.header-component {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+}
