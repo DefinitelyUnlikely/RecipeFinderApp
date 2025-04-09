@@ -5,6 +5,9 @@
 
 .branding {
     font-family: 'Brush Script MT', cursive;
+    background: -webkit-radial-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 body {
@@ -14,7 +17,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(60deg, #e77088, #FFEDBC) no-repeat;
+    background: linear-gradient(60deg, #e77088, #ffedbc) no-repeat;
     margin: 0;
 }
 
@@ -22,9 +25,8 @@ button {
     border-radius: 8px;
     border: 1px solid transparent;
     padding: 0.6rem 1.2rem;
-    font-size: 1rem;
-    font-weight: 500;
-    font-family: inherit;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
     transition: border-color 0.25s;
     background-color: #e77088;
