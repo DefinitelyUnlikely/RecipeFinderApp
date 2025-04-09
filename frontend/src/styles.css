@@ -39,6 +39,12 @@ button {
 
 button:hover {
     border-color: #FFEDBC;
+    background-color: #e77088;
+    color: #ffedbc;
+}
+
+button:active {
+    border-color: #FFEDBC;
     background-color: #ffedbc;
     color: #e77088;
 }
