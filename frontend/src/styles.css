@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(60deg, #e77088, #FFEDBC) no-repeat;
+    margin: 0;
+}

@@ -5,4 +5,7 @@ I'm probably opting out of having a navbar. I might have a header, but that will
 some of the pages I think. We'll see exactly how I'll want to do this. I'm currently thinking I'm going for a very simple design.
 
 The homepage should be very simple and is mainly a way to see the webpage at its most simplest form. 
-Two buttons in the middle of the page
+Two buttons in the middle of the page, one for getting to the actual recipe finding page and one for getting to the about us page.
+
+Color scheme? I feel a recipe site is mostly associated with brighter colors and a light theme.
+A white background can be a little dull - I'm thinknig gradiant. And I'm thinking a peachlike color scheme.
