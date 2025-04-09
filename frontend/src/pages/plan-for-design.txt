@@ -1,0 +1,8 @@
+So, Ill have a homepage, an about us page and a page where you actually search for recipes. 
+Most likely I'll add a 4th page that is for the recipe itself. 
+
+I'm probably opting out of having a navbar. I might have a header, but that will only contain buttons for navigation on 
+some of the pages I think. We'll see exactly how I'll want to do this. I'm currently thinking I'm going for a very simple design.
+
+The homepage should be very simple and is mainly a way to see the webpage at its most simplest form. 
+Two buttons in the middle of the page
