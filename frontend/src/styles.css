@@ -31,6 +31,7 @@ button {
     cursor: pointer;
     transition: border-color 0.25s;
     background-color: #e77088;
+    color: whitesmoke;
     height: 5rem;
     min-width: 10rem;
     max-width: 20rem;
