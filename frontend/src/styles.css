@@ -33,8 +33,7 @@ button {
     background-color: #e77088;
     color: whitesmoke;
     height: 5rem;
-    min-width: 10rem;
-    max-width: 20rem;
+    width: 20rem;
 }
 
 button:hover {
