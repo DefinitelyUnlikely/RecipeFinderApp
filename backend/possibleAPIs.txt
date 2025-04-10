@@ -1,0 +1,8 @@
+I'm making a list of possible APIs to use for my recipes. 
+
+1. https://www.themealdb.com/api.php upside: free, has a test API key for the purpose of development or education. You can even pay later, if you want to use the key in
+production/release your thing to the public. i.e. if I do decide to make an actual website and not just a showcase, I can still use this API. 
+downside: The free API does not have a way for me to get all meals. You also need premium to do multi-ingredient searches. meaning it might not be suitable 
+for anything BUT an actual product. i.e. my showcase would either have to share my API key (ain't happening) or not have access to multi-ingredient searches. 
+
+2. 
