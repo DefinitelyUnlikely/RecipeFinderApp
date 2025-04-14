@@ -1,0 +1,38 @@
+.cross {
+    height: 50px;
+    width: 40px;
+    margin-left: auto;
+    position: relative;
+    margin: 0.25rem;
+    z-index: 1000;
+}
+
+.cross:hover {
+    cursor: pointer;
+}
+
+.cross span {
+    height: 5px;
+    width: 100%;
+    background-color: #faebd7;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.cross span {
+    background-color: #faebd7;
+}
+
+.cross span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.cross span:nth-child(2) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}

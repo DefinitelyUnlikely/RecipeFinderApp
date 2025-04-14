@@ -22,3 +22,9 @@ public class Program
         app.Run();
     }
 }
+
+
+public class HelloWorld()
+{
+
+}
