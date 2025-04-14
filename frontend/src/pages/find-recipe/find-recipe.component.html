@@ -3,7 +3,7 @@
     </div>
     <div class="search-tags">
         @for (ingredient of ingredients; track ingredient; let i = $index) {
-        <div class="single-searh">
+        <div class="single-search">
             <div class="search-term"> {{ingredient}}</div>
             <div class="cross" (click)="removeIngredient(i)">
                 <span></span>

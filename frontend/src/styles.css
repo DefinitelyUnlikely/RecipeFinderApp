@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('./app/app.component.css');
-
 @import url('./pages/homepage/homepage.component.css');
+@import 'animate.css';
 
 .branding {
     font-family: 'Brush Script MT', cursive;
