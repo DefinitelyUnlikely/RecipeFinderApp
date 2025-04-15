@@ -1,5 +1,6 @@
 <div class="find-page-component">
-    <input class="search-box">
+    <label for="search-box">Add ingredient:</label>
+    <input id="search-box" class="search-box">
     <div class="search-tags">
         @for (ingredient of ingredients; track ingredient; let i = $index) {
         <div class="single-search">
