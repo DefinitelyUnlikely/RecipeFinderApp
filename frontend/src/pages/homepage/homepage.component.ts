@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-homepage',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.css'
 })
 export class HomepageComponent {
-  ingredients: string[] = ["testing", "test 2", "more stuff", "hmm, chili!", "hello world!", "mayonaise"];
-
+  // ingredients: string[] = ["testing", "test 2", "more stuff", "hmm, chili!", "hello world!", "mayonaise"];
+  ingredients: string[] = [];
   newIngredient: string = "";
 
   addIngredient(): void {

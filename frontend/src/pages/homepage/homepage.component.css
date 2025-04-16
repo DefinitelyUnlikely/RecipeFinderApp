@@ -7,8 +7,21 @@
     border: 1px solid transparent;
     height: 5rem;
     width: 20rem;
-    margin-bottom: 2rem;
     font-size: 1.5rem;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-ingredient {
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .single-search {

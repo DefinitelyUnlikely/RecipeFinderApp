@@ -1,6 +1,7 @@
 <div class="search">
     <label for="search-box" class="label-for-input">Add ingredient:</label>
-    <input id="search-box" class="search-box">
+    <input id="search-box" class="search-box" placeholder="Add new ingredient..." [(ngModel)]="newIngredient">
+    <button class="add-ingredient" (click)="addIngredient()">Add ingredient</button>
 </div>
 <div class="search-tags">
     @for (ingredient of ingredients; track ingredient; let i = $index) {
