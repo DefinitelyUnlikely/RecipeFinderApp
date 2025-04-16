@@ -1,3 +1,28 @@
 <a href=""><button class="nav-button">Home!</button></a>
 <a href="/about"><button class="nav-button">About us!</button></a>
-<button class="nav-button help-button">Help</button>
+<button class="nav-button help-button" (click)="renderHelp()">Help</button>
+
+<div class="help-popup" (click)="renderHelp()" *ngIf="isOpen">
+    <div class="popup-content">
+        <h2>Help</h2>
+        <p>
+            How to use this app:
+        </p>
+        <p>
+            Type your desired ingredient into the white box and press <strong>"Add ingredient"</strong> to add an
+            ingredient to the list.
+            Repeat for each desired ingredient. When you are ready to search for recipes press
+            <strong>"Search"</strong>.
+        </p>
+        <p>How does it work?</p>
+        <p>
+            The application will search for recieps containing all the ingredients added to the list. You'll be returned
+            a list of recipes containing your selected ingredients.
+        </p>
+        <p>
+            Future releases will contain a strict search mode, where matching recipes <strong>MUST</strong>
+            contain selected ingredients but nothing else.
+        </p>
+    </div>
+
+</div>
