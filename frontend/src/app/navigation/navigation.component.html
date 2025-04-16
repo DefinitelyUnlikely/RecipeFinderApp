@@ -1,5 +1,5 @@
-<a href=""><button class="nav-button">Home!</button></a>
-<a href="/about"><button class="nav-button">About us!</button></a>
+<a routerLink=""><button class="nav-button">Home!</button></a>
+<a routerLink="/about"><button class="nav-button">About us!</button></a>
 <button class="nav-button help-button" (click)="renderHelp()">Help</button>
 
 <div class="help-popup" (click)="renderHelp()" *ngIf="isOpen">

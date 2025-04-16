@@ -47,6 +47,19 @@ app-aboutpage {
     overflow: auto;
 }
 
+app-page-not-found {
+    flex: 1;
+    margin: 1rem;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
 /* END outlet components */
 
 app-navigation {
