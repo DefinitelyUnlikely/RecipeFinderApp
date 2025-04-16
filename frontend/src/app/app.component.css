@@ -1,3 +1,6 @@
+/* Angular seems to create a router-outlet div, but this div doesn't actually contain the outlet content. 
+Instead, the outlet content is inserted below this div as it's own component. I put this at display: none to prevent any funny business
+an empty div might create in my css */
 router-outlet {
     display: none;
 }
