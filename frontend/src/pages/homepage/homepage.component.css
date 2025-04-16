@@ -4,7 +4,8 @@
     align-items: center;
     background-color: #ffffff;
     color: rgb(1, 110, 6);
-    border-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
     border: 1px solid transparent;
     height: 5rem;
     width: 20rem;
@@ -23,6 +24,8 @@
     width: 100%;
     font-size: 1rem;
     margin-bottom: 0.5rem;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
 }
 
 .single-search {
