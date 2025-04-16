@@ -1,13 +1,9 @@
-So, Ill have a homepage, an about us page and a page where you actually search for recipes. 
-Most likely I'll add a 4th page that is for the recipe itself. 
+I've changed my mind on some of the design choices. 
 
-I'm probably opting out of having a navbar. I might have a header, but that will only contain buttons for navigation on 
-some of the pages I think. We'll see exactly how I'll want to do this. I'm currently thinking I'm going for a very simple design.
+I think I'll go for having buttons for navigation at the bottom of the page.
+On a phone in landscape, navigation should instead be to the side. 
 
-The homepage should be very simple and is mainly a way to see the webpage at its most simplest form. 
-Two buttons in the middle of the page, one for getting to the actual recipe finding page and one for getting to the about us page.
+Content still in the middle. 
 
-Color scheme? I feel a recipe site is mostly associated with brighter colors and a light theme.
-A white background can be a little dull - I'm thinking gradiant. And I'm thinking a peachlike color scheme. That feels "foody". 
-
-I'm going to opt for a header anyway, but the header is not with any navigation, it will simply be the text for the app name.
+I think I'll remove the divs inside the pages and just have them be in the outlet by default.
+Then have a div around the outlet if needed. I think this is easier in terms of making the css consistent across the page.

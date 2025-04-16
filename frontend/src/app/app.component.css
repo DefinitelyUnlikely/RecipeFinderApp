@@ -1,12 +1,44 @@
 .page-div {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
     height: 100vh;
+    width: 100vw;
 }
 
-.header-component {
+app-header {
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.outlet-and-nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+}
+
+router-outlet {
+    flex-grow: 1;
+}
+
+app-aboutpage {
+    height: 100%;
+    width: 100%;
+}
+
+app-find-recipe {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
