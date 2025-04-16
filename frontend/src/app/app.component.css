@@ -1,44 +1,40 @@
-.page-div {
+router-outlet {
+    display: none;
+}
+
+app-root {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 2rem;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 app-header {
-    display: flex;
     flex-shrink: 0;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
 
-.outlet-and-nav {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+/* START outlet components */
+
+app-homepage {
+    flex: 1;
     margin: 1rem;
-}
-
-router-outlet {
-    flex-grow: 1;
+    overflow-y: auto;
+    min-height: 0
 }
 
 app-aboutpage {
-    height: 100%;
-    width: 100%;
+    margin: 1rem;
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0
 }
 
-app-find-recipe {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* END outlet components */
+
+app-navigation {
+    margin: 1rem;
+    flex-shrink: 0;
 }

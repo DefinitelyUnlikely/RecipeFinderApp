@@ -37,6 +37,10 @@
     color: #e77088;
 }
 
+.search-tags {
+    overflow: auto;
+}
+
 .cross {
     height: 50px;
     width: 40px;

@@ -11,15 +11,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-app-root {
-    overflow: hidden;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100vw;
     height: 100vh;
     background: linear-gradient(60deg, #e77088, #ffedbc) no-repeat;
@@ -48,6 +40,11 @@ button:active {
     border-color: #FFEDBC;
     background-color: #ffedbc;
     color: #e77088;
+}
+
+.label-for-input {
+    font-size: 1.25rem;
+    color: whitesmoke;
 }
 
 @media screen and (min-width: 1079px) {

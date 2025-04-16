@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './homepage.component.css'
 })
 export class HomepageComponent {
-  ingredients: string[] = ["testing", "test 2"];
+  ingredients: string[] = ["testing", "test 2", "more stuff", "hmm, chili!", "hello world!", "mayonaise"];
 
   newIngredient: string = "";
 
