@@ -22,4 +22,9 @@ export class HomepageComponent {
     this.ingredients.splice(index, 1)
   }
 
+  search(): void {
+    // Insert API call here.
+    console.log("Still nothing here");
+  }
+
 }
